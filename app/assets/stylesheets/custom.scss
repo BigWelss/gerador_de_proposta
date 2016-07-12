@@ -1,0 +1,96 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+	color: #AB4B4B;
+}
+
+.navbar {
+	min-height: 80px;
+}
+
+.navbar-default {
+	border-color: #AB4B4B;
+}
+
+a {
+	color: black;
+}
+
+a:hover a:focus{
+	text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.centered {
+  position: fixed;
+  top: 10px;
+  left: 37%;
+}
+
+h3 {
+	color: #AB4B4B;
+}
+
+input {
+	width:40%;
+	border-width: 0;
+	border-bottom-width: 1px;
+	border-bottom-color: #AB4B4B;
+	margin-left: 2px;
+	padding-left: 5px;
+}
+
+
+label {
+	width: 120px;
+	text-align: right;
+	margin-left: 5px;
+}
+
+.row {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-sm-12 input {
+	width: 80%;
+}
+
+.col-md-6 input {
+	width: 60%;
+}
+
+.col-md-3, .col-sm-12, .col-md-12, .col-lg-12, .col-lg-3, .col-md-4, .col-md-6{
+	padding: 0;
+}
+
+@media (min-width: 707px) and (max-width: 991px){
+
+	input {
+		width: 80%;
+	}
+
+	.col-md-6 input {
+		width: 80%;
+	}
+}
+
+@media (max-width: 706px){
+
+	input {
+		width: 60%;
+	}
+
+	.col-sm-12 input {
+		width: 60%;
+	}
+
+	.row {
+		min-width: 333px;
+	}
+}
